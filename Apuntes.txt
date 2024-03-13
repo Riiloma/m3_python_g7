@@ -1,1 +1,40 @@
 -----Apuntes y Observaciones de Python-----
+
+-----Limitantes-----
+Pyton no permite sumer LETRAS Y NUMEROS
+ERROR -> TypeError: can only concatenate str (not "int") to str
+--------------------
+
+----------PRINT----------
+Nos permite hacer operaciones matematicas basicas.
+
+La sintaxis basica es -> print()
+
+Hay 5 formas de imprimir un texto/variable estas serian:
+
+    -----print basico-----
+    ° print("Texto") o print(variable)
+    ----------------------
+
+    -----print interpolacion-----
+    ° print(f "textp {variable}")
+    -----------------------------
+
+    -----print .format-----
+    ° print("texto {} texot {}".format(variable,variable))
+    -----------------------
+
+    -----print con %s para string y %d para numeros-----
+    ° print("texto %s texto %d" % (variable, variable))
+    ----------------------------------------------------
+
+    -----print con cadena-----
+    ° print(varible.title())
+        DATO: title hace que la primera letra de cada palabra lo pone con mayuscula
+              aun que este con mayusculas entre las palabras  
+    --------------------------
+
+En python no se puede vividir por 0
+ERROR -> ZeroDivisionError: division by zero
+
+----------FIN DE PRINT----------
