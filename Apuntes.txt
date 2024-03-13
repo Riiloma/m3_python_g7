@@ -38,3 +38,7 @@ En python no se puede vividir por 0
 ERROR -> ZeroDivisionError: division by zero
 
 ----------FIN DE PRINT----------
+
+-----Divisiones-----
+DATO: la division siempre dara un deciman, exepto si usamos //
+--------------------
