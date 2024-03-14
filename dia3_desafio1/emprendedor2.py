@@ -1,4 +1,4 @@
-print("ADVERTENCIA: si pone una letra en los valores dara ERROR")
+print("ADVERTENCIA: Porfavor ingresar Mayor a 0, no ingresar signos, no ingresar letras ")
 
 #variables que piden valores
 Precio_sus = float(input("Ingrese el precio de las suscripciones: "))
