@@ -1,4 +1,4 @@
-import math
+import math # se recomeinda from math import y el metodo que se requiere
 
 #Datos de prueba
 # gravedad = 9.8
