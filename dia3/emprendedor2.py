@@ -6,4 +6,4 @@ Gastos_totales = float(input("Ingrese sus gastos totales: "))
 
 Utilidades = (Precio_sus*1.5) * Numero_usuario - Gastos_totales
 
-print(Utilidades)
+print(f"las urilidades son: {Utilidades}")

@@ -10,4 +10,4 @@ radio_metros = radio * 1000
 
 resultado = (math.sqrt(2*gravedad*radio_metros))
 
-print(f"el resulta: {resultado}")
+print(f"el resultado es: {round(resultado,1)}")
