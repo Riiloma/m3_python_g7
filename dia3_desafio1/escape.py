@@ -5,7 +5,7 @@ import math
 # radio= 6371
 
 #Pidiendo datos
-gravedad = float(input("Ingrese el la gravedad del planeta: "))
+gravedad = float(input("Ingrese la gravedad del planeta: "))
 radio = int(input("Ingrese el radio en Kilómetros: "))
 
 #Pasndo radio de kilometros a metros
