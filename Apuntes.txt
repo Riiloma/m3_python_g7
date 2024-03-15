@@ -1,44 +1,89 @@
 -----Apuntes y Observaciones de Python-----
 
+-----Importante-----
+Siempre pero SIEMPRE esperar la opinion del cliente, no se avanza sin su aprobacion
+--------------------
+
+
 -----Limitantes-----
-Pyton no permite sumer LETRAS Y NUMEROS
-ERROR -> TypeError: can only concatenate str (not "int") to str
+    Pyton no permite sumer LETRAS Y NUMEROS
+    ERROR -> TypeError: can only concatenate str (not "int") to str
 --------------------
 
-----------PRINT----------
-Nos permite hacer operaciones matematicas basicas.
+----------print----------
+    Nos permite hacer operaciones matematicas basicas.
 
-La sintaxis basica es -> print()
+    La sintaxis basica es -> print()
 
-Hay 5 formas de imprimir un texto/variable estas serian:
+    Hay 5 formas de imprimir un texto/variable estas serian:
 
-    -----print basico-----
-    ° print("Texto") o print(variable)
-    ----------------------
+        -----print basico-----
+        ° print("Texto") o print(variable)
+        ----------------------
 
-    -----print interpolacion-----
-    ° print(f "textp {variable}")
-    -----------------------------
+        -----print interpolacion-----
+        ° print(f "textp {variable}")
+        -----------------------------
 
-    -----print .format-----
-    ° print("texto {} texot {}".format(variable,variable))
-    -----------------------
+        -----print .format-----
+        ° print("texto {} texot {}".format(variable,variable))
+        -----------------------
 
-    -----print con %s para string y %d para numeros-----
-    ° print("texto %s texto %d" % (variable, variable))
-    ----------------------------------------------------
+        -----print con %s para string y %d para numeros-----
+        ° print("texto %s texto %d" % (variable, variable))
+        ----------------------------------------------------
 
-    -----print con cadena-----
-    ° print(varible.title())
-        DATO: title hace que la primera letra de cada palabra lo pone con mayuscula
-              aun que este con mayusculas entre las palabras  
+        -----print con cadena-----
+        ° print(varible.title())
+            DATO: title hace que la primera letra de cada palabra lo pone con mayuscula
+                  aun que este con mayusculas entre las palabras  
     --------------------------
+----------Fin de print----------
 
-En python no se puede vividir por 0
-ERROR -> ZeroDivisionError: division by zero
+----------Operaciones matematicas----------
+    si lleva unos () se ejecutan antes que una multiplicacion
 
-----------FIN DE PRINT----------
+    -----Divisiones-----
+        DATO: la division siempre dara un deciman, exepto si usamos //
 
------Divisiones-----
-DATO: la division siempre dara un deciman, exepto si usamos //
---------------------
+        En python no se puede vividir por 0
+        ERROR -> ZeroDivisionError: division by zero
+    -----Fin de Divisiones-----
+----------Fin de Operaciones matematicas----------
+
+-----Typos de funciones y metodos-----
+    Funcion type -> nos premite saber el tipo de dato
+
+    Funcion len -> nos permite saber cuantos caracteres hay en un string
+        DATO: si pones un numero da como resultado -> ERROR:TypeError: object of type 'int' has no len()
+
+    Metodo .count -> nos sirper para encontrar letras o palabras especificas
+    Metodo .upper -> convierte un string palabra completa en mayusculas
+    Metodo .lower -> convierte un string palabra completa en minuscula 
+    Metodo .title -> convierte la primera letra de cada palabra en mayuscula
+-----Fin de los Typos de funciones y metodos-----
+
+----------Input----------
+    su sintaxis es la siguiente
+        "variable = input("texto")"
+
+    sirve para poder interacutar con el usuario interactivamente.
+
+    el input siempre entregara un STRING para pasarlo a numero tenemos que usar la siguiente sintaxis
+        "variable = int(input("texto"))"
+        "variable = float(input("texto"))"
+----------Fin de Input----------
+
+----------Librerias----------
+    libreria math -> nos permite hacer operaciones matematicas mas avanzadas.
+
+    hay 3 formas de importarlas esta el:
+        "import math" -> importa toda la libreria
+        from math import pow, sqrt, ceil -> importa los justo y nesesario(recomendada)
+
+    tambien podemos instalarlas por consola con "pip" y el nombre de la libreia
+
+            metodo pow -> expone el numero
+            metodo sqrt -> es la raiz cuadrada    
+            metodo cel -> aproxima el numero al superior
+----------Fin de Librerias----------
