@@ -3,14 +3,14 @@
 #Ingresando datos
 while True:# true es para que se repita INFINITAMENTE
         peso = float(input("Ingrese el peso en Kg: "))
-        if peso == 0:
+        if peso == 0:#deveria ir un <=
                 print("El Valor no puede ser 0")
         else:
             break# esto hace que se detenga si se cumple la condicion -> (si se pone abajo se detiene el while)
         
 while True:         
         altura_cm = float(input("Ingrese la altura en centímetros: "))
-        if altura_cm == 0:
+        if altura_cm == 0:#deveria ir un <=
                 print("El Valor no puede ser 0")
         else:
             break
