@@ -15,10 +15,20 @@ ventas = {
 }
 
 argumento= int(sys.argv[1])
+print("")
 print(argumento)
+print("")
+
+nuevo_diccionario={}
 
 for clave,valor in ventas.items():
-    if valor >= argumento:
-        print(clave,valor)
+    if valor > argumento:
+        nuevo_diccionario[clave]=valor
+
+print(nuevo_diccionario)
+
+diccionario2={clave:valor for clave,valor in ventas.items() if valor > argumento}
+print(diccionario2)
+
 print("")
 print("Fuera del for")
