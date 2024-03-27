@@ -4,9 +4,16 @@
 Siempre pero SIEMPRE esperar la opinion del cliente, no se avanza sin su aprobacion
 --------------------
 
+-----Tipos de dato----- 
+    int: Numerico
+    string: Texto
+    float: Numerico con decimales
+    booleans: True o False
+    None: "nose xD"
+-----Fin de Tipos de dato-----
 
 -----Limitantes-----
-    Pyton no permite sumer LETRAS Y NUMEROS
+    Pyton no permite sumar LETRAS Y NUMEROS
     ERROR -> TypeError: can only concatenate str (not "int") to str
 --------------------
 
@@ -87,3 +94,35 @@ Siempre pero SIEMPRE esperar la opinion del cliente, no se avanza sin su aprobac
             metodo sqrt -> es la raiz cuadrada    
             metodo cel -> aproxima el numero al superior
 ----------Fin de Librerias----------
+
+----------Ciclo While----------
+    El ciclo while sirve para poder repetir una y otra vez el segmento de codigo mientras se cumpla una condicion
+
+    Se puede es escrbir "True" despues de la palabra While puedes hacer un bluque por que si o si se cumple entonces luego
+    solamente pones la palabra "break" donde deseas que acabe el procedimiento por ejemplo asi es la sintaxis:
+
+    (Desafio 2 dia 6, imc.py)
+
+    while True:         
+        altura_cm = float(input("Ingrese la altura en centímetros: "))
+        if altura_cm == 0:#deveria ir un <=
+                print("El Valor no puede ser 0")
+        else:
+            break
+    
+    tambien puedes hacesce comparaciones como "!=" o tambien "<,> "
+----------Fin de Ciclo While----------
+
+----------Ciclo For----------
+    Basicamente es como el while en sierta forma pero mas potente, ya que se puede operaciones: fijate en la sintaxis.
+
+    (dia 8 cliclo_flor.py)
+
+    #aca empieza asi [0,1,2,3,4,5,6,7,8,9]
+    for i in range(10):#->el 10 no lo cuenta, no concidera el ultimo elemento que le damos
+        print(f"El valor de i es: {i}")
+
+    en el ejercicio de arriba hace un recorrido del 0 al 9 
+
+    es muy extenso lo que podemos hacer con el for
+----------Fin del Ciclo For----------

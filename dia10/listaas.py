@@ -84,6 +84,7 @@ print("Metodo remove")
 lista_vacia.remove("Martes")#-> borra el elemento dado
 #lista_vacia.remove("a") ValueError: list.remove(x): x not in list
 lista_vacia.remove("Jueves")#elimina la primera considencia de izquierda a derecha
+
 lista_vacia.insert(0, "Martes")
 lista_vacia.insert(0, "Lunes")
 lista_vacia.insert(3, "Jueves")
