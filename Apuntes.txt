@@ -2,6 +2,9 @@
 
 -----Importante-----
 Siempre pero SIEMPRE esperar la opinion del cliente, no se avanza sin su aprobacion
+()->Tuplas
+{}->Diccionarios
+[]->Listas
 --------------------
 
 -----Tipos de dato----- 
@@ -126,3 +129,51 @@ Siempre pero SIEMPRE esperar la opinion del cliente, no se avanza sin su aprobac
 
     es muy extenso lo que podemos hacer con el for
 ----------Fin del Ciclo For----------
+
+----------Funciones----------
+    Sintaxis:
+        def nombre(vacio/argumento):
+            contenido del codigo
+
+    el argumento es simple, Basicamente es como que le pormetemos un dato a futuro por ejemplo:
+        def lista_super(elementos):
+            contenido del codigo
+
+    lista_super(azucar)
+
+    azucar vendria siendo el elemento que le prometimos anteriormente a la funcion
+
+    cuando ocupamos un * al lado izquierdo junto argumento nos entrega una lista. sin embargo con dos ** nos estrega un diccionario
+    un ejemplo de la sintaxis:
+
+        def nombre(*elementos):
+            contenido del codigo
+
+        def nombre(**elementos):
+        contenido del codigo
+
+    se ocupan para reutilizar codigo y que sea mas limpio 
+----------Fin de las Funciones----------
+
+----------Tuplas----------
+----------Fin de Tuplas----------
+
+----------Diccionarios----------
+    diccionarios: nos sirven para almacenar cantidades enormes de datos
+    sintaxis:
+        nombre{nombre = "alex"}
+
+    se vasan en clave, calor en ese orden
+
+    dentro de un diccionario nos podemos pillar con listas, otros diccionarios, todo tipo de datos
+
+    las claves son UNICAS
+----------Fin de Diccionarios----------
+
+----------Listas----------
+    Listas: nos sirven para almacenar datos
+    sintaxis:
+        nombre=['juan','pedro']
+    
+    funcuonan por indices, se rigen por orden, a comparacion del diccionario no se rige por orden,|
+----------Fin de Listas----------
