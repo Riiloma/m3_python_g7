@@ -40,7 +40,6 @@ print(len(lista_pares))#-> imprime el tamaño de la lista, en este caso es de 5
 print(len(lista_vacia))#-> imprime el tamaño de la lista, en este caso es de 0
 
 #Metodos de la listas
-
 print("")
 print(lista_pares.__dir__)#-> <built-in method __dir__ of list object at 0x00000265EB13D900> es un objeto
 print(lista_pares.__dir__())#-> mustran muchos metodos que podemos usar en los objetos
@@ -101,8 +100,8 @@ print(lista_vacia)#->['Jueves', 'Sabado', 'Miercoles']
 #Metodo sort() => ordena los elementos de forma asendente/alfaveticamente, es permanente
 print("")
 print("Metodo sort")
-lista_vacia.sort
-lista_pares.sort
+lista_vacia.sort()
+lista_pares.sort()
 print(lista_vacia)#['Domingo', 'Sabado', 'Viernes', 'Jueves', 'Miercoles', 'Martes', 'Lunes']
 print(lista_pares)#[2, 4, 6, 8, 10]
 
