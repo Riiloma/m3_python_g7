@@ -89,7 +89,7 @@ for valor in datos_personales.values():#obtienes los valores
 
 print("")
 #ENUMERATE
-
+print("enumerate")
 for posicion, caracter in enumerate(texto):
     print(f"la posicion {posicion} del caracter {caracter}")
 

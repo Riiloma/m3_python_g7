@@ -1,9 +1,10 @@
 """ 
+Dia: 29 de marzo del 2024
 pruebas:
-    python filtro.py 30000
-    python filtro.py 30000 menor
-    python filtro.py 30000 mayor
-    python filtro.py 30000 otro
+    python filtro.py 30000= Los productos mayores al umbral son: Notebook Monitor Escritorio Tarjeta de Video
+    python filtro.py 30000 menor= Los productos menores al umbral son: Teclado Mouse
+    python filtro.py 30000 mayor= Los productos mayores al umbral son: Notebook Monitor Escritorio Tarjeta de Video
+    python filtro.py 30000 otro= Lo sentimos, no es una operación válida
 """
 
 import sys
