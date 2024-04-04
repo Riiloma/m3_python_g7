@@ -13,8 +13,9 @@ html_template = Template('''
 </head>
 
 <body>
-
-$body
+    <div class="container">
+            <div class="row">
+    $body
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -25,17 +26,13 @@ $body
 ''')
 
 html_informacion = Template('''
-<div class="container">
-        <div class="row">
-            <div class="col-3">
-                <div class="card mt-4 mx-4">
-                    <img src="$url" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">$nombre_espanol</h5>
-                        <h3 class="card-title">$nombre_ingles</h3>
+                <div class="col-3">
+                    <div class="card mt-4 mx-4">
+                        <img src="$url" class="card-img-top" alt="pajarito">
+                        <div class="card-body">
+                            <h3 class="text-center card-title">$nombre_espanol</h3>
+                            <h5 class="card-title">$nombre_ingles</h5>
+                        </div>
                     </div>
                 </div>
-            </div>    
-        </div>
-    </div>
 ''')
