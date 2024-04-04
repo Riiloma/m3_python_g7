@@ -14,5 +14,5 @@ def pag_ave(url):
     return t.html_template.substitute(body = texto_img)
 
 a= pag_ave("https://aves.ninjas.cl/api/birds")
-with open("dia17/prueba/index2.html", "w") as file:
+with open("dia17/prueba/index.html", "w") as file:
     file.write(a)
