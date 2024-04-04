@@ -1,8 +1,7 @@
 import random
 
 def caminar():
-    """Hace la funcion de señalar una direccion hacia donde caminar
-    """
+    """Hace la funcion de señalar una direccion hacia donde caminar"""
     direcciones=["Norte", "Sur", "Este", "Oeste"]
     direccion= random.choice(direcciones)
     print(f"Caminaras hacia el: {direccion}")
