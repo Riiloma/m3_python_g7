@@ -11,6 +11,7 @@ $body
 </body>
 </html>
 ''')
+
 lista_url = [elemento['url'] for elemento in response]
 texto_img = ''
 for url in lista_url:

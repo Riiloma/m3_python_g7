@@ -4,7 +4,6 @@ url = "https://reqres.in/api/users/2"
 
 payload = {
     "name": "morpheus",
-    "job": "zion resident",
     "residence": "zion"
 }
 updated_user = requests.put(url, json=payload)
