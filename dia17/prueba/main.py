@@ -1,6 +1,16 @@
-from api import request_get
 import template
+import requests,json
 
+def request_get(url):#crenado la funcion y pasandole el argumento url
+    """se conecta a la API
+
+    Args:
+        url (string): direccion de API
+
+    Returns:
+        Diccionario: retorna informacion en formato texto y imagen
+    """
+    return json.loads(requests.get(url).text)
 
 #crando una funcion que recorral la URL
 def pag_ave(url):
