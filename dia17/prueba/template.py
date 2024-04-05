@@ -1,4 +1,6 @@
 from string import Template
+"""genera un template que basico con "html_template" y un template que genera un card con "html_informacion"
+"""
 
 #Creando el template principal
 html_template = Template('''
