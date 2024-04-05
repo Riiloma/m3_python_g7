@@ -25,5 +25,5 @@ def pag_ave(url):
     return template.html_template.substitute(body = texto_img)#aca se remplaza lo que es la va en "$body" por las "texto_img" que vendria siendo los card
 
 llamando_funcion= pag_ave("https://aves.ninjas.cl/api/birds")#almacenando en una variable la funcion y pasandole la URL de la api
-with open("dia17/prueba/index.html", "w", encoding='utf-8' ) as file: #creando la ruta donde se creara el archivo
-    file.write(llamando_funcion)
+with open("dia17/prueba/index.html", "w", encoding='utf-8' ) as file: #creando la pagina con la ruta donde se creara el archivo
+    file.write(llamando_funcion) #creadno el archivo
